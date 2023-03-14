@@ -14,6 +14,20 @@ var diceImage2 = "images/dice"+randomNumber2+".png";
 console.log("Dice 2 img directory : " + diceImage2);
 document.querySelector("#dicePlayer2").setAttribute("src", diceImage2);
 
+//Processing the winner
+if(randomNumber1 > randomNumber2)
+{
+    document.querySelector("#winnerResult").innerHTML = "Player 1 Win!";
+}
+else if (randomNumber2 > randomNumber1)
+{
+    document.querySelector("#winnerResult").innerHTML = "Player 2 Win!";
+}
+else
+{
+    document.querySelector("#winnerResult").innerHTML = "Draw!";
+}
+
 //Randomize number function
 function generateRandom(maxNumber)
 {
