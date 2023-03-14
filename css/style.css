@@ -1,0 +1,47 @@
+body
+{
+    background-color: #48474e;
+}
+
+.mainContent
+{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.mainContent h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff4c68;
+    font-size: 3rem;
+}
+
+.daisu
+{
+    display: inline-block;
+
+}
+
+.daisu h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #ff4c68;
+}
+
+.diceResult
+{
+    width: 70%;
+}
+
+footer
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ff4c68;
+}
+
